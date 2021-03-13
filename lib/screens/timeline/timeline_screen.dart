@@ -7,7 +7,7 @@ class TimelineScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('タイムライン'),
       ),
-      body: const Center(child: Text('タイムラインのページ')),
+      body: const Center(child: Text('タイムラインの画面')),
     );
   }
 }

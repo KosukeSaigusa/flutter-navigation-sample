@@ -7,8 +7,7 @@ import 'package:flutter_navigation_sample/screens/timeline/timeline_screen.dart'
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
-  HomeScreen({@required this.title});
-  final String title;
+  HomeScreen();
   final int currentIndex = 0;
 
   @override
