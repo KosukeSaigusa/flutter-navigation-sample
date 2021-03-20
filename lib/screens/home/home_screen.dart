@@ -17,7 +17,17 @@ class HomeScreen extends StatelessWidget {
       child: Consumer<HomeScreenModel>(
         builder: (context, homeScreenModel, child) {
           return Scaffold(
-            body: homeScreenBody(context),
+            body:
+                // Center(
+                //   child: Checkbox(
+                //     value: homeScreenModel.isChecked,
+                //     onChanged: (value) {
+                //       print(value);
+                //       homeScreenModel.onCheckBoxTap(value: value);
+                //     },
+                //   ),
+                // ),
+                homeScreenBody(context),
             floatingActionButton: FloatingActionButton(
               onPressed: () {
                 Navigator.push(
